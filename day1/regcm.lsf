@@ -1,0 +1,12 @@
+#!/bin/bash
+#BSUB -P workshop
+#BSUB -J regcm 
+#BSUB -q workshop 
+#BSUB -m anadolu_quad 
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -a intelmpi4
+#BSUB -n 8 
+
+#mpirun.lsf bin/regcmMPI regcm.in_MED50km >& regcmout.txt 
+mpirun.lsf bin/regcmMPI regcm.in_TR10km >& regcmout.txt 

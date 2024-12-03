@@ -1,0 +1,145 @@
+!Mediterranean domain
+ &dimparam
+ iy     = 118,
+ jx     = 144,
+ kz     = 18,
+ nsg    = 1,
+ /
+ &geoparam
+ iproj = 'LAMCON',
+ ds = 50.0,
+ ptop = 5.0,
+ clat = 45.5,
+ clon = 20.0,
+ plat = 45.5,
+ plon = 20.0,
+ truelatl = 30.0,
+ truelath = 60.0,
+ i_band = 0,
+ /
+ &terrainparam
+ domname = 'MED50',
+ smthbdy = .false.,
+ lakedpth = .false.,
+ fudge_lnd   = .false.,
+ fudge_lnd_s = .false.,
+ fudge_tex   = .false.,
+ fudge_tex_s = .false.,
+ fudge_lak   = .false.,
+ fudge_lak_s  = .false.,
+ h2opct = 75.,
+ h2ohgt = .false.,
+ dirter = '/RS/projects/workshop/du001/day1_2/input',
+ inpter = '/RS/progs/workshop/data/RCMDATA',
+ /
+ &ioparam
+ ibyte = 4,
+ /
+ &debugparam
+ debug_level = 1
+ dbgfrq = 3,
+ /
+ &boundaryparam
+ nspgx  = 12,
+ nspgd  = 12,
+ /
+ &modesparam
+ nsplit = 2,
+ /
+ &globdatparam
+ ibdyfrq = 6,
+ ssttyp = 'OI_WK',
+ dattyp = 'EIN75',
+ calendar = 'gregorian',
+ gdate1 = 2010010100,
+ gdate2 = 2010020101,
+ dirglob = '/RS/projects/workshop/du001/day1_2/input',
+ inpglob = '/RS/progs/workshop/data/RCMDATA',
+ /
+ &globwindow
+ lat0 = 0.0
+ lat1 = 0.0
+ lon0 = 0.0
+ lon1 = 0.0
+ /
+ &aerosolparam
+ aertyp = 'AER00D0'
+ ntr = 10,
+ nbin = 4,
+ /
+ &restartparam
+ ifrest  = .false. ,
+ mdate0  = 2010010100,
+ mdate1  = 2010010100,
+ mdate2  = 2010020100,
+ /
+ &timeparam
+ dtrad   =    30.,
+ dtabem  =    18.,
+ dtsrf   =   600.,
+ dt      =   150.,
+ /
+ &outparam
+ lsync = .false.,
+ ifsave  = .true. ,
+   savfrq  =    7200.,
+ ifatm  = .true. ,
+   atmfrq  =     6.,
+ ifrad   = .true. ,
+   radfrq  =     6.,
+ ifsrf   = .true. ,
+ iflak   = .true. ,
+   lakfrq  =     6.,
+ ifsub   = .true. ,
+   srffrq  =     3.,
+ ifchem  = .true.,
+   chemfrq =     6.,
+ dirout = '/RS/projects/workshop/du001/day1_2/output',
+ /
+ &physicsparam
+ iboudy  =          5,
+ ibltyp  =          1,
+ icup_lnd =          4,
+ icup_ocn =          4,
+ igcc    =          2,
+ ipptls  =          1,
+ iocnflx =          2,
+ iocnrough =        2,
+ iocncpl =          0,
+ ipgf    =          0,
+ iemiss  =          0,
+ lakemod =          0,
+ ichem   =          0,
+ scenario = 'A1B',
+ idcsst = 0,
+ iseaice = 0,
+ idesseas = 1,
+ iconvlwp = 1,
+ /
+ &subexparam
+ ncld      =          1,
+ qck1land  =   .600E-04,
+ qck1oce   =   .250E-03,
+ cevaplnd  =   1.50E-02,
+ caccrlnd  =      1.000,
+ gulland   =      1.000,
+ rh0oce    =       0.65,
+ rh0land   =       0.95,
+ /
+ &grellparam
+ /
+ &emanparam
+ epmax_ocn  =  0.800,
+ elcrit_ocn = 0.0005,
+ elcrit_lnd = 0.0060,
+ /
+ &chemparam
+ idirect   =    1,
+ inpchtrname  =   '',
+ inpchtrsol   =   .00,
+ inpchtrdpv   =  .00000, .00000,
+ inpdustbsiz  =   .00,  .00,
+ /
+ &cplparam
+ cpldt        = 3600.,
+ /

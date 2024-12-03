@@ -1,0 +1,12 @@
+#!/bin/bash
+#BSUB -P workshop
+#BSUB -J regesm 
+#BSUB -q workshop 
+##BSUB -m anadolu_quad 
+#BSUB -m anadolu_dual 
+#BSUB -o %J.out
+#BSUB -e %J.err
+#BSUB -a intelmpi4
+#BSUB -n 32
+
+mpirun.lsf ./regesm.x regcm.in_TR10km bsea.in >& regesmout.txt
