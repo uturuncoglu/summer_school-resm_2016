@@ -87,7 +87,7 @@ The atmospheric model use case that will be used in the hands-on session include
 * The parent domain will be forced by [ERA-Interim](http://www.ecmwf.int/en/research/climate-reanalysis/era-interim) dataset and nested domain ICBC will be created using output of parent model domain (MED50). This procedure is called as "one-way nesting".
 * The test simulation is planed as one month long (Jan. 2010).
 
-![Domain map with high-resolution nest](https://github.com/uturuncoglu/summer_school-resm_2016/raw/master/images/Fig_01_domain.png)
+![Domain map with high-resolution nest](https://github.com/user-attachments/assets/d1d8f654-cdfc-44ef-ba52-4a615af06804)
 
 ### Running Parent Domain (MED50)
 
@@ -198,7 +198,7 @@ The installation and usage of ROMS oceean modeling system include set of steps;
 
 The simplified version of the Black Sea model will be used during the summer school,
 
-![Bathymetry map](https://github.com/uturuncoglu/summer_school-resm_2016/raw/master/images/Fig_02_bathymetry.png)
+![Bathymetry map](https://github.com/user-attachments/assets/65c5b40a-6e13-4b29-b69f-288bfcd21dc1)
 
 The configuration details of the Black Sea Model:
 
