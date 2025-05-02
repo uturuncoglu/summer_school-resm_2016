@@ -2,7 +2,12 @@
 
 **Location:** 5-7 September 2016, Istanbul Technical University, Istanbul, Turkey
 
-The offical page of summer school web page can be found in [here](http://hbm.itu.edu.tr/egitimler/ysm2016/) (in Turkish)
+The offical page of summer school web page can be found in [here](http://hbm.itu.edu.tr/egitimler/ysm2016/) (in Turkish, not maintained anymore)
+
+**Photos**
+
+![DSC_0105](https://github.com/user-attachments/assets/004bed53-f041-4af7-8856-e88113db3109)
+![DSC_0108](https://github.com/user-attachments/assets/19004ba7-b56c-4fad-9692-bddff9987bbf)
 
 ## Login Information for HPC System (Anadolu@UHeM)
 
